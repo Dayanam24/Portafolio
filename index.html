@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://cdn.tailwindcss.com"></script>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Lao:wght@500&family=Roboto:wght@300&display=swap" rel="stylesheet">
+        <link rel="icon" href="img/icono.png">
+        <title>Dayana Montaña</title>
+    </head>
+
+    <body>
+
+        <!-- Portada --> 
+        <section class="bg-[url('./img/portada.jpg')] w-[100%] bg-cover h-[100vh]">
+
+            <div class="flex flex-col h-[100%] w-[100%] bg-gradient-to-b from-black/90 via-black/25 to-black/90">
+
+                <nav id="cajaMenu">
+
+                    <img id="logo" src="img/logo.png" alt="Logo">
+
+                    <div id="menu">
+                        <a id="inicio" href="index.html">Inicio</a>
+                        <a href="#sobreMi">Sobre mi</a>
+                        <a href="#habilidades">Mis habilidades</a>
+                        <a href="#trabajosRealizados">Trabajos realizados</a>
+                        <a href="#contactoAqui">Contacto</a>
+                    </div>
+
+                </nav>
+
+                <main>
+                    <img src="img/foto.jpeg" alt="Foto de portada">
+
+                    <h1>Dayana Montaña</h1>
+
+                    <p>Desarrollo web</p>
+                </main>
+
+            </div>
+
+        </section>
+
+
+        <!-- Sobre mi -->
+        <section id="sobreMi">
+
+            <div  id="sobreMiImg1">
+
+                <img id="sobreMiImg2" src="img/sobre mi.jpg" alt="sobre mi">
+
+            </div>
+
+            <div id="sobreMiTexto">
+
+                <h1 id="sobreMiH1">Sobre mi</h1>
+
+                <p id="sobreMiP">
+                    Hola, mi nombre es Dayana Montaña, soy de Valencia Edo: Carabobo, Venezuela. Actualmento estoy estudiando prograciòn web en Lexpin. 
+                    <br>
+                    <br>
+                    He creado este espacio para que puedas ver los proyectos que he realizado. En la sección de trabajos realizados podras ver algunos de mis trabajos y 
+                    prácticas que he hecho, seguiré trabajando para mejorar y subir nuevas cosas, muchas gracias por ver mi trabajo. 
+                </p>
+
+                <h2 id="conoceMasH2">Conóceme más</h2>
+
+                <div id="conoceMas">
+                
+                    <div class="col1">
+                        <ol>
+                            <li>
+                                <p>Fecha de nacimiento: 24/06/94</p>
+                                <br>
+                                <p>Edad: 28 años</p>
+                                <br>
+                                <p>País de recidencia: Venezuela</p> 
+                            </li>
+                        </ol>
+                    </div>
+
+                    <div class="col1">
+                        <ol>
+                            <li>
+                                <p>Telefono: 0424-4495515</p>
+                                <br>
+                                <p>Email: dayana.montanad@gmail.com</p>
+                                <br>
+                                <p>Dirección: Valencia, Edo: Carabobo</p>
+                            </li>
+                        </ol>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- Habilidades -->
+        <section id="habilidades">
+
+            <h1 id="habilidadesH1">Mis habilidades</h1>
+
+            <p id="habilidadesParrafo">Programas y herramientas aprendidas</p>
+                
+            <div class="skill">
+
+                <li>
+                    <h3>Html</h3>
+                    <span class="bar"><span class="html"></span></span>
+                </li>
+                
+                <li>
+                    <h3>Css</h3>
+                    <span class="bar"><span class="css"></span></span>
+                </li>
+                
+                <li>
+                    <h3>JavaScript</h3>
+                    <span class="bar"><span class="javascript"></span></span>
+                </li>
+                
+                <li>
+                    <h3>Tailwind</h3>
+                    <span class="bar"><span class="tailwind"></span></span>
+                </li>
+                
+                <li>
+                    <h3>Sass</h3>
+                    <span class="bar"><span class="sass"></span></span>
+                </li>
+                
+            </div>
+
+        </section>
+        
+
+        <!-- Trabajos realizados-->
+        <section id="trabajosRealizados">
+            
+                <h1 id="trabajosH1">Trabajos realizados</h1>
+
+                <div id="trabajos">
+
+                    <div class="trabajosCol">
+
+                        <img class="trabajosImg" src="img/youtube.png" alt="youtube">
+                        <h1 class="trabajosTitulo">Clon de YouTube</h1>
+                        <p class="trabajosParrafo">Réplica de YouTube, elaborado con HTML y CSS.</p>
+                        <a class="trabajosBoton" href="https://github.com/Dayanam24/Proyecto-YouTube.git" target="_blank">Ver en Github</a>
+
+                    </div>
+
+                    <div class="trabajosCol">
+
+                        <img class="trabajosImg" src="img/netflix.jpg" alt="netflix">
+                        <h1 class="trabajosTitulo">Clon de Netflix</h1>
+                        <p class="trabajosParrafo">Réplica de Netflix, elaborado con HTML, Tailwind y CSS.</p>
+                        <a class="trabajosBoton" href="https://github.com/Dayanam24/Proyecto-Netflix.git" target="_blank">Ver en Github</a>
+
+                    </div>
+
+                    <div class="trabajosCol">
+
+                        <img class="trabajosImg" src="img/calculadora.jpg" alt="calculadora">
+                        <h1 class="trabajosTitulo">Calculadora</h1>
+                        <p class="trabajosParrafo">Calculadora digital, elaborada con HTML, CSS y JavaScript</p>
+                        <a class="trabajosBoton" href="https://github.com/Dayanam24/Calculadora.git" target="_blank">Ver en Github</a>
+
+                    </div>
+
+                    <div class="trabajosCol">
+
+                        <img class="trabajosImg" src="img/lista de tareas.jpg" alt="lista">
+                        <h1 class="trabajosTitulo">Lista de tareas</h1>
+                        <p class="trabajosParrafo">Lista de tareas, elaborada con HTML, CSS y JavaScript</p>
+                        <a class="trabajosBoton" href="https://github.com/Dayanam24/Practica.git" target="_blank">Ver en Github</a>
+
+                    </div>
+
+                </div>
+
+        </section>
+
+
+        <!-- Contacto -->
+        <section id="contactoAqui" class="bg-[url('./img/fondo4.png')] w-[100%] bg-cover h-[100vh] flex justify-center">
+
+                <div class="flex flex-col h-[100%] w-[100%] bg-gradient-to-b from-black/90 via-black/25 to-black/90 items-end">
+
+                    <div id="contacto">
+
+                        <h1>Contacto</h1>
+
+                        <input id="inputNombre" class="contactoInput" type="text" placeholder="Nombre" name="nombre">
+                        <label id="labelNombre" for="inputNombre"></label>
+                        
+                        <input id="inputApellido" class="contactoInput" type="text" placeholder="Apellido" name="<apellido">
+                        <label id="labelApellido" for="inputApellido"></label>
+
+                        <input id="inputEmail" class="contactoInput" type="email" placeholder="Email" name="email">
+                        <label id="labelEmail" for="inputEmail"></label>
+
+                        <input id="inputMensaje" class="contactoInput" type="text" placeholder="Mensaje" name="mensaje">
+                        <label id="labelEmail" for="inputEmail"></label>
+
+                        <button id="enviar">Enviar</button>
+
+                    </div>
+
+                </div>
+
+        </section>
+
+
+        <footer>
+
+            <div id="reloj"></div>
+
+            <div id="redesSociales">
+
+                <a href="https://www.facebook.com/dayana.montana2/" target="_blank">
+                    <img class="imgRedes" src="img/facebook.png" alt="facebook">
+                </a>
+
+                <a href="https://www.instagram.com/dayanamd81/" target="_blank">
+                    <img class="imgRedes" src="img/instagram.png" alt="instagram">
+                </a>
+
+                <a href="https://web.whatsapp.com/" target="_blank">
+                    <img class="imgRedes" src="img/whatsapp.png" alt="whatsapp">
+                </a>
+
+                <a href="https://github.com/Dayanam24" target="_blank">
+                    <img class="imgRedes" src="img/github.png" alt="github">
+                </a>
+
+            </div>
+
+        </footer>
+
+
+    </body>
+
+    <script src="scrip.js"></script>
+    
+</html>

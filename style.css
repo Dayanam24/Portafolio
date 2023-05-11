@@ -1,0 +1,522 @@
+*{
+    box-sizing: border-box; 
+    margin: 0px; 
+    top: 0px;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    min-width: 100%;
+    height: 55px;
+    padding: 25px;
+    position: fixed;
+    background: rgba(255, 255, 255, 0.0);
+}
+
+nav img{
+    height: 28px;
+    width: 85px;
+}
+
+nav div a{
+    color: white;
+    padding: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav div a:hover{
+    color: #BB5886;
+    border-bottom: 1px solid #BC5A81;
+}
+
+#inicio{
+    color: #CB1161;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main img{
+    height: 250px;
+    width: 250px;
+    border-radius: 100%;
+    margin-top: 140px;
+}
+
+main h1{
+    color: #CB1161;
+    font-family: 'Noto Sans Lao', sans-serif;
+    font-size: 50px;
+    margin-top: 10px;
+}
+
+main p{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+}
+
+
+
+
+#sobreMi{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 700px;
+    background-color: #020409;
+    
+}
+
+#sobreMiImg1{
+    display: flex;
+    flex-direction: column;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+}
+
+#sobreMiImg2{
+    height: 300px;
+    width: 320px;
+    border-radius: 100%;
+}
+
+#sobreMiTexto{
+    display: flex;
+    flex-direction: column;
+    grid-template-columns: 1fr;
+}
+
+#sobreMiH1{
+    color: white;
+    font-family: 'Noto Sans Lao', sans-serif;
+    font-size: 30px;
+    margin-top: 120px;
+}
+
+#sobreMiP{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    margin-top: 10px;
+    text-align: justify;
+    margin-right: 80px;
+    margin-bottom: 20px;
+}
+
+#conoceMas{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-right: 80px;
+    background: #c0392b;
+    background: -webkit-linear-gradient(to right, #8e44ad, #c0392b);
+    background: linear-gradient(to right, #8e44ad, #c0392b);
+    height: 160px;
+    width: 422px;
+
+}
+
+#conoceMasH2{
+    color: white;
+    font-family: 'Noto Sans Lao', sans-serif;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.col1{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    padding: 15px;
+}
+
+
+
+
+#habilidades{
+    background-color: #00111C;
+    height: 800px;
+}
+
+#habilidadesH1{
+    color: white;
+    font-family: 'Noto Sans Lao', sans-serif;
+    font-size: 30px;
+    margin-left: 80px;
+    margin-top: 90px;
+}
+
+#habilidadesParrafo{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    margin-left: 80px;
+}
+
+.skill{
+    width: 500px;
+    margin: 60px auto;
+    color: #fff;
+    padding: 20px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.skill li{
+    margin: 20px 0;
+    padding: 10px;
+}
+
+.bar{
+    background: #353b48;
+    display: block;
+    height: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    overflow: hidden; 
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.bar:hover{
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.bar span{
+    height: 20px;
+    float: left;
+    background:  linear-gradient(135deg, rgba(236, 0, 140, 1)0%, rgba(252,103,103,1)100%);
+}
+
+.html{
+    width: 50%;
+    animation: html 3%;
+}
+
+.css{
+    width: 60%;
+    animation: css 3%;
+}
+
+.javascript{
+    width: 20%;
+    animation: javascript 3%;
+}
+
+.tailwind{
+    width: 40%;
+    animation: tailwind 3%;
+}
+
+.sass{
+    width: 20%;
+    animation: sass 3%;
+}
+
+
+
+
+#trabajosRealizados{
+    display: flex;
+    flex-direction: column;
+    background-color: #100B11;
+    height: 680px;
+}
+
+#trabajosH1{
+    color: white;
+    font-family: 'Noto Sans Lao', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 90px;
+    margin-bottom: 20px;
+}
+
+#trabajos{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.trabajosCol{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom: white 1px solid;
+    padding: 12px;
+    background-color: #1B1D2B;
+    height: 350px;
+    width: 200px;
+    margin-top: 70px;
+}
+
+.trabajosImg{
+    height: 150px;
+    width: 150px;
+    border-radius: 100%;
+}
+
+.trabajosTitulo{
+    color: white;
+    font-family: 'Noto Sans Lao', sans-serif;
+    margin-top: 10px;
+}
+    
+.trabajosParrafo{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    text-align: justify;
+    margin-top: 10px;
+}
+
+.trabajosBoton{
+    padding: 8px;
+    margin-top: 10px;
+    color: white;
+    border-radius: 5px;
+    background: #c0392b;
+    background: -webkit-linear-gradient(to right, #8e44ad, #c0392b);
+    background: linear-gradient(to right, #8e44ad, #c0392b);
+}
+
+.trabajosBoton:hover{
+    color: black;
+}
+
+
+
+
+#contacto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin: 90px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+    backdrop-filter: blur(7px);
+    width: 360px;
+    height: 600px;
+}
+
+#contacto h1{
+    color: white;
+    font-family: 'Noto Sans Lao', sans-serif;
+    font-size: 25px;
+}
+
+.contactoInput{
+    width: 250px;
+    height: 35px;
+    padding-left: 20px;
+    background-color: transparent;
+    border: solid #231A39;
+    border-width: 0px 0px 1px 0px;
+}
+
+.contactoInput::placeholder{
+    color: #2F193A;
+}
+
+.contactoInput:focus{
+    outline: none;
+    border: none;
+}
+
+#contacto button{
+    background: #c0392b;
+    background: -webkit-linear-gradient(to right, #8e44ad, #c0392b);
+    background: linear-gradient(to right, #8e44ad, #c0392b);
+    width: 120px;
+    height: 35px;
+    border-radius: 20px;
+    color: #fff;
+}
+
+#contacto button:hover{
+    color: black;
+}
+
+label{
+    font-size: 12px;
+}
+
+
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 220px;
+    background-color: #070307;
+    margin: 50px;
+}
+
+#reloj{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #A63F71;
+    font-family: 'Roboto', sans-serif;
+    border: #A63F71 1px solid;
+    border-radius: 100%;
+    width: 120px;
+    height: 120px;
+    font-size: larger;
+    gap: 25px;
+    margin: 10px;
+}
+
+#redesSociales{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    gap: 20px;
+}
+
+.imgRedes{
+    width: 50px;
+    height: 50px;
+    transition: all .4s ease-in-out;
+}
+
+.imgRedes:hover{
+    transform: scale(1.2);
+}
+
+
+
+
+@media (max-width:765px){
+    nav{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 5px;
+        font-size: 15px;
+    }
+
+    nav div a{
+        padding: 12px;
+    }
+
+    #sobreMi{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 80px;
+        font-size: 30px;
+        height: 100%;
+    }
+
+    #conoceMas{
+        height: 200px;
+        margin-bottom: 50px;
+    }
+
+    #sobreMiH1{
+        margin-top: 30px;
+    }
+
+    .skill{
+        width: 500px;
+    }
+
+    #trabajos{
+        gap: 8px;
+        margin: 20px;
+    }
+
+    #contacto{
+        height: 500px;
+        gap: 15px;
+        padding: 10px;
+        margin: 50px;
+    }
+
+}
+
+@media (max-width:604px){
+    nav{
+        font-size: 10px;
+    }
+
+    main img{
+        height: 180px;
+        width: 180px;
+    }
+
+    main h1{
+        font-size: 35px;
+    }
+
+    main p{
+        font-size: 18px;
+    }
+
+    .skill{
+        width: 300px;
+    }
+
+    #trabajosRealizados{
+        height: 100%;
+    }
+
+    #trabajos{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contactoInput::placeholder{
+        color: #020409;
+    }
+
+    .contactoInput{
+        background-color: transparent;
+        border: solid #33275B;
+        border-width: 0px 0px 1px 0px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
